@@ -1,0 +1,7 @@
+whitenoise
+Werkzeug
+requests
+dnspython
+Flask
+Flask-Limiter
+Pillow

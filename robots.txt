@@ -1,0 +1,754 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /administrator/
+Disallow: /ajax/
+Disallow: /api/
+Disallow: /app/
+Disallow: /assets/
+Disallow: /backup/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /config/
+Disallow: /cgi-bin/
+Disallow: /dashboard/
+Disallow: /data/
+Disallow: /db/
+Disallow: /debug/
+Disallow: /dev/
+Disallow: /etc/
+Disallow: /export/
+Disallow: /files/
+Disallow: /include/
+Disallow: /inc/
+Disallow: /install/
+Disallow: /lib/
+Disallow: /logs/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /node/
+Disallow: /php/
+Disallow: /plugins/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /secure/
+Disallow: /session/
+Disallow: /setup/
+Disallow: /sql/
+Disallow: /src/
+Disallow: /system/
+Disallow: /tmp/
+Disallow: /uploads/
+Disallow: /var/
+Disallow: /vendor/
+Disallow: /web/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /?
+Disallow: /*?
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+Disallow: /*.zip$
+Disallow: /*.rar$
+Disallow: /*.tar$
+Disallow: /*.gz$
+Disallow: /*.sql$
+Disallow: /*.log$
+Crawl-delay: 10
+
+# Major Search Engines
+User-agent: Googlebot
+Disallow: /search/
+Disallow: /search?
+Crawl-delay: 5
+
+User-agent: Bingbot
+Disallow: /search/
+Disallow: /search?
+Crawl-delay: 5
+
+User-agent: Slurp
+Disallow: /search/
+Disallow: /search?
+Crawl-delay: 5
+
+User-agent: DuckDuckBot
+Disallow: /search/
+Disallow: /search?
+Crawl-delay: 5
+
+User-agent: Baiduspider
+Disallow: /
+Crawl-delay: 30
+
+User-agent: YandexBot
+Disallow: /
+Crawl-delay: 20
+
+# SEO & Analytics Bots
+User-agent: AhrefsBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SemrushBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MJ12bot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: DotBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MegaIndex.ru
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BLEXBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SearchmetricsBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SISTRIX
+Disallow: /
+Crawl-delay: 30
+
+User-agent: DataForSeoBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Serpstatbot
+Disallow: /
+Crawl-delay: 30
+
+# Social Media Bots
+User-agent: facebookexternalhit
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+User-agent: Twitterbot
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+User-agent: Pinterestbot
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+User-agent: LinkedInBot
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+User-agent: Discordbot
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+User-agent: SkypeUriPreview
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 5
+
+# Aggressive Crawlers
+User-agent: CCBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PetalBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Bytespider
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MauiBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Barkrowler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: InfoTigerBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MegaIndex
+Disallow: /
+Crawl-delay: 30
+
+# Monitoring & Performance Bots
+User-agent: UptimeRobot
+Disallow: /
+Crawl-delay: 10
+
+User-agent: StatusCake
+Disallow: /
+Crawl-delay: 10
+
+User-agent: Pingdom
+Disallow: /
+Crawl-delay: 10
+
+User-agent: GTmetrix
+Disallow: /
+Crawl-delay: 10
+
+User-agent: DareBoost
+Disallow: /
+Crawl-delay: 10
+
+User-agent: Panopta
+Disallow: /
+Crawl-delay: 10
+
+# Security & Scanning Bots
+User-agent: PhishTank
+Disallow: /
+Crawl-delay: 10
+
+User-agent: phishtank
+Disallow: /
+Crawl-delay: 10
+
+User-agent: AWS Security Scanner
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Nuclei
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Nessus
+Disallow: /
+Crawl-delay: 30
+
+# Archiving Bots
+User-agent: ia_archiver
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 10
+
+User-agent: archive.org_bot
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 10
+
+User-agent: SpecialArchiver
+Disallow: /private/
+Disallow: /users/
+Crawl-delay: 10
+
+# Development & Testing Bots
+User-agent: Selenium
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Playwright
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Puppeteer
+Disallow: /
+Crawl-delay: 30
+
+User-agent: HeadlessChrome
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PhantomJS
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Cypress
+Disallow: /
+Crawl-delay: 30
+
+User-agent: WebDriver
+Disallow: /
+Crawl-delay: 30
+
+# Feed & Content Fetchers
+User-agent: Feedfetcher-Google
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: Feedly
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: R6_FeedFetcher
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: Feedburner
+Disallow: /private/
+Crawl-delay: 5
+
+# Regional Search Engines
+User-agent: YandexBot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: SeznamBot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: JikeSpider
+Disallow: /
+Crawl-delay: 20
+
+User-agent: Mail.RU_Bot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: ZumBot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: ScoutJet
+Disallow: /
+Crawl-delay: 20
+
+# Research & Academic Bots
+User-agent: Nutch
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Heritrix
+Disallow: /
+Crawl-delay: 30
+
+User-agent: HTTrack
+Disallow: /
+Crawl-delay: 30
+
+User-agent: WebCopier
+Disallow: /
+Crawl-delay: 30
+
+# HTTP Client Libraries
+User-agent: python-requests
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Go-http-client
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Java
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Apache-HttpClient
+Disallow: /
+Crawl-delay: 30
+
+User-agent: okhttp
+Disallow: /
+Crawl-delay: 30
+
+User-agent: node-fetch
+Disallow: /
+Crawl-delay: 30
+
+User-agent: axios
+Disallow: /
+Crawl-delay: 30
+
+User-agent: RestSharp
+Disallow: /
+Crawl-delay: 30
+
+User-agent: GuzzleHttp
+Disallow: /
+Crawl-delay: 30
+
+# Testing & Benchmarking Tools
+User-agent: ApacheBench
+Disallow: /
+Crawl-delay: 30
+
+User-agent: ab
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Siege
+Disallow: /
+Crawl-delay: 30
+
+User-agent: wrk
+Disallow: /
+Crawl-delay: 30
+
+User-agent: vegeta
+Disallow: /
+Crawl-delay: 30
+
+User-agent: k6
+Disallow: /
+Crawl-delay: 30
+
+# Additional SEO Tools
+User-agent: Exabot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Ezooms
+Disallow: /
+Crawl-delay: 30
+
+User-agent: YouBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Neevabot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MojeekBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Cliqzbot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Genieo
+Disallow: /
+Crawl-delay: 30
+
+User-agent: ltx71
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Qwantify
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SafeDNSBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: AspiegelBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Panscient
+Disallow: /
+Crawl-delay: 30
+
+# Content Aggregators
+User-agent: PaperLiBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: TweetedTimes
+Disallow: /
+Crawl-delay: 30
+
+User-agent: TweetmemeBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Spinn3r
+Disallow: /
+Crawl-delay: 30
+
+User-agent: InAGist
+Disallow: /
+Crawl-delay: 30
+
+# Link Checkers & Validators
+User-agent: Xenu
+Disallow: /
+Crawl-delay: 30
+
+User-agent: LinkpadBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SiteAuditBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: ICC-Crawler
+Disallow: /
+Crawl-delay: 30
+
+# News & Media Bots
+User-agent: Applebot
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: msnbot
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: AOLBuild
+Disallow: /
+Crawl-delay: 20
+
+User-agent: Gigabot
+Disallow: /
+Crawl-delay: 20
+
+# Web Service Bots
+User-agent: Amazon CloudFront
+Disallow: /
+Crawl-delay: 10
+
+User-agent: CloudFlare-AlwaysOnline
+Disallow: /
+Crawl-delay: 10
+
+User-agent: Iframely
+Disallow: /
+Crawl-delay: 10
+
+User-agent: Embedly
+Disallow: /
+Crawl-delay: 10
+
+User-agent: MetaURI
+Disallow: /
+Crawl-delay: 10
+
+User-agent: LongURL
+Disallow: /
+Crawl-delay: 10
+
+# Analytics & Tracking
+User-agent: Google-Safety
+Disallow: /
+Crawl-delay: 10
+
+User-agent: Google-InspectionTool
+Disallow: /
+Crawl-delay: 10
+
+User-agent: AdsBot-Google
+Disallow: /
+Crawl-delay: 10
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+Crawl-delay: 10
+
+# Miscellaneous Bots
+User-agent: NetcraftSurveyAgent
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Sogou
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Butterfly
+Disallow: /
+Crawl-delay: 30
+
+User-agent: woriotbot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: merlinkbot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BazQuxBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Kraken
+Disallow: /
+Crawl-delay: 30
+
+User-agent: magpie-crawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: GrapeshotCrawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PercolateCrawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MaxPointCrawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: NetSeer
+Disallow: /
+Crawl-delay: 30
+
+User-agent: grokkit-crawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SMXCrawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PulseCrawler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Y!J-BRW
+Disallow: /
+Crawl-delay: 30
+
+User-agent: 80legs
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Mediapartners-Google
+Disallow: /
+Crawl-delay: 30
+
+User-agent: NING
+Disallow: /
+Crawl-delay: 30
+
+User-agent: TencentTraveler
+Disallow: /
+Crawl-delay: 30
+
+User-agent: mon.itor.us
+Disallow: /
+Crawl-delay: 30
+
+User-agent: spbot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PrintfulBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: UnwindFetchor
+Disallow: /
+Crawl-delay: 30
+
+User-agent: urlresolver
+Disallow: /
+Crawl-delay: 30
+
+User-agent: QuerySeekerSpider
+Disallow: /
+Crawl-delay: 30
+
+User-agent: ShowyouBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Calypso
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Lighthouse
+Disallow: /
+Crawl-delay: 30
+
+User-agent: DuckDuckGo-Favicons-Bot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: YaK
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Linguee
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BingPreview
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Adidxbot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BingLocalSearch
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BingSearch
+Disallow: /
+Crawl-delay: 30
+
+User-agent: MSNBot-Media
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Bingbot-Image
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Bingbot-Video
+Disallow: /
+Crawl-delay: 30
+
+User-agent: SeekportBot
+Disallow: /
+Crawl-delay: 30
+
+User-agent: HTTPie
+Disallow: /
+Crawl-delay: 30
+
+User-agent: PostmanRuntime
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Insomnia
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Wget
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Scrapy
+Disallow: /
+Crawl-delay: 30
+
+User-agent: Mechanize
+Disallow: /
+Crawl-delay: 30
+
+User-agent: BeautifulSoup
+Disallow: /
+Crawl-delay: 30
+
+# Allow good bots access to public content
+User-agent: Googlebot
+Allow: /public/
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /public/
+Allow: /images/
+
+User-agent: Applebot
+Allow: /public/
+Allow: /images/
